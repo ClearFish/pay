@@ -303,7 +303,36 @@
       </div>
     </div>
     <div class="fifth_top">
-
+        <div class="fifth_box">
+            <div class="fifth_left">
+                <p class="title">Frictionless Instant Crypto/ Fiat Payouts</p>
+                <p class="word">We ease the burden of your high end business expansion, letting you focus on your work rather than transactions.</p>
+                <p class="word">But Crypto/Fiat without leaving your app/website.</p>
+                <p class="word">Offer users the flexibility of having multiple Crypto payment options and currencies to choose from.</p>
+            </div>
+            <div class="fifth_right">
+                <img src="../../assets/images/about-img.png" style="width:70%;height:auto" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="sixth_top">
+        <div class="six_content">
+            <p class="title_top">Accept more payments, from the right users</p>
+            <ul>
+                <li>
+                    <p class="title">Intelligent fraud detection</p>
+                    <p class="word">Our proprietary fraud engine leverages the most advanced machine learning models to calculate highly accurate risk profiles, defeat fraud, and improve conversion.</p>
+                </li>
+                <li>
+                    <p class="title">Chargeback protection</p>
+                    <p class="word">Give yourself peace of mind with our guaranteed chargeback protection. We cover the costs and time dealing with chargebacks, taking the risk out of your cryptocurrency payment solution.</p>
+                </li>
+                <li>
+                    <p class="title">Technology-first approach to AML</p>
+                    <p class="word">Our proven AML-monitoring system works to sift out malicious actors in real-time, ensuring you only deal with compliant users.</p>
+                </li>
+            </ul>
+        </div>
     </div>
   </div>
 </template>
@@ -807,7 +836,102 @@ export default {
     }
   }
   .fifth_top {
-      
+      height: 680px;
+      width: 100%;
+      background: #fff;
+      padding: 100px 0;
+      background-image: url(../../assets/images/about-bg-shape.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .fifth_box {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+       .fifth_left {
+           height: 100%;
+           width: 50%;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+        //    align-items: center;
+           .title {
+                font-size: 32px;
+                color: #000;
+                font-weight: bold;
+           }
+           .word {
+                padding-left: 20px;
+                font-size: 18px;
+                color: #212529;
+                line-height: 24px;
+                margin-top: 20px;
+           }
+       } 
+       .fifth_right {
+           width: 50%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+    }
+  }
+  .sixth_top {
+      width: 100%;
+      height: 660px;
+      background: url("../../assets/images/bnr1.jpg") no-repeat center;
+      background-size: cover;
+      padding: 100px 0;
+      .six_content {
+          width: 90%;
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          height: 100%;
+          .title_top {
+              font-size: 32px;
+              margin-bottom: 180px;
+          }
+          ul {
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+              li {
+                  width: 30%;
+                  padding: 40px;
+                  box-sizing: border-box;
+                  background: #fff;
+                  border-radius: 10px;
+                      transition: all 0.2s ease;
+                  cursor: pointer;
+                  .title {
+                      font-size: 24px;
+                    color: #000;
+                    font-weight: bold;
+                  }
+                  .word {
+                      font-size: 18px;
+                    color: #212529;
+                    line-height: 30px;
+                    margin-top: 20px;
+                  }
+              }
+              li:hover {
+                    background: #00c26f;
+                    color: #ffffff;
+                    transform: translateY(-10px);
+                    .title {
+                        color: #fff;
+                    }
+                    .word {
+                        color: #fff;
+                    }
+              }
+          }
+      }
   }
 }
 </style>
