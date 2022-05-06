@@ -102,9 +102,10 @@ export default {};
 .footer_box {
   width: 100%;
   margin: 0 auto;
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  // position: fixed;
+  // bottom: 0;
+  // left: 0;
+  padding-top: 40px;
   .content_box {
     width: 90%;
     margin: 0 auto;
