@@ -44,7 +44,7 @@
                 <h5 class="mb-3 text-dark">Resources</h5>
                 <ul class="list-unstyled support-list">
                   <li class="mb-2">
-                    <a target="_blank" href="docs.html">API Documentation</a>
+                    <router-link to="/doc">API Documentation</router-link>
                   </li>
                   <li class="mb-2">
                     <a
@@ -62,13 +62,13 @@
                 <h5 class="mb-3 text-dark">Legal</h5>
                 <ul class="list-unstyled support-list">
                   <li class="mb-2">
-                    <a href="/privacy-policy">Privacy Policy</a>
+                    <router-link to="/PrivacyPolicy">Privacy Policy</router-link>
                   </li>
-                  <li class="mb-2"><a href="/security">Security</a></li>
+                  <li class="mb-2"><router-link to="/security">Security</router-link></li>
                   <li class="mb-2">
-                    <a href="/user-agreement">User Agreement</a>
+                    <router-link to="/useragreement">User Agreement</router-link>
                   </li>
-                  <li class="mb-2"><a href="/refund">Refund Policy</a></li>
+                  <li class="mb-2"><router-link to="/refund">Refund Policy</router-link></li>
                 </ul>
               </div>
             </div>

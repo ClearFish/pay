@@ -1,8 +1,8 @@
 <template>
     <div class="header_box">
         <div class="set_width">
-            <div class="left">
-                <img src="../../assets/images/logo-light.png" alt="">
+            <div class="left" @click="toHome">
+                <img src="../../assets/images/logo-light.png" style="width:400px;height:auto" alt="">
             </div>
             <div class="right">
                 <ul>
@@ -26,6 +26,11 @@ export default {
                 {name:'Login',url:"/login"}
             ]
         }
+    },
+    methods:{
+        toHome() {
+            this.$router.push("/")
+        }
     }
 }
 </script>
@@ -41,6 +46,7 @@ export default {
         align-items: center;
     }
     .left {
+        cursor: pointer;
         img {
         }
     }
@@ -52,6 +58,9 @@ export default {
                 a {
                     color: #fafafa;
                     opacity: 0.8;
+                }
+                a:hover {
+                    color: #0d6efd;
                 }
             }
         }

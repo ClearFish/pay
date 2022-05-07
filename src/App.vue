@@ -17,7 +17,6 @@ export default {
     Footer
   },
   name: 'App'
-  
 }
 </script>
 

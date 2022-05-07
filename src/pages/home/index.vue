@@ -785,7 +785,7 @@ export default {
         .box {
           display: flex;
           justify-content: space-between;
-          align-items: center;
+          // align-items: center;
           margin-top: 20px;
           .left {
             width: 48%;
