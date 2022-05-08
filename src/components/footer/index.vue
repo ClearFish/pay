@@ -83,7 +83,7 @@
                   </li>
                   <li class="mb-2 d-flex align-items-center">
                     <span class="ti-email mr-2"></span
-                    ><a href="mailto:info@floxypay.com">info@floxypay.com</a>
+                    ><a href="mailto:teamsupport@bitexgo.com">teamsupport@bitexgo.com</a>
                   </li>
                 </ul>
               </div>

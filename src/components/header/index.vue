@@ -2,7 +2,7 @@
     <div class="header_box">
         <div class="set_width">
             <div class="left" @click="toHome">
-                <img src="../../assets/images/logo-light.png" style="width:400px;height:auto" alt="">
+                <img src="../../assets/images/logo-1.png" style="width:150px;height:auto" alt="">
             </div>
             <div class="right">
                 <ul>
@@ -44,6 +44,7 @@ export default {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 10px 0;
     }
     .left {
         cursor: pointer;
@@ -56,7 +57,7 @@ export default {
             li {
                 margin-left: 30px;
                 a {
-                    color: #fafafa;
+                    color: #0090ba;;
                     opacity: 0.8;
                 }
                 a:hover {
