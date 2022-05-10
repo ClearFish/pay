@@ -2,7 +2,7 @@
   <div class="footer_box">
     <div class="content_box">
       <div class="left">
-        <img src="../../assets/images/logo-color-1x.png" alt="" style="width:320px;height:auto"/>
+        <img src="../../assets/images/logo2.png" alt="" style="width:150px;height:auto"/>
       </div>
       <div class="right">
         <div class="col-md-12 col-lg-9">
